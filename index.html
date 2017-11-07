@@ -1,12 +1,167 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<title>Барбершоп "Бородинский"</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a>
+					<img src="img/logo.svg" width="" height="" alt="Логотип барбершопа «Бородинский»">
+				</a>
+				<ul class="site_navigation">
+					<li>
+						<a href="#">Информация</a>
+					</li>
+					<li>
+						<a href="#">Новости</a>
+					</li>
+					<li>
+						<a href="price.html">Прайс-лист</a>
+					</li>
+					<li>
+						<a href="shop.html">Магазин</a>
+					</li>
+					<li>
+						<a href="#">Контакты</a>
+					</li>
+				</ul>
+				<ul class="user_navigation">
+					<li>
+						<a href="#">Вход</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h1 class="visually_hidden">Барбершоп «Бородинский»</h1>
+			<section class="features">
+				<h2 class="visually_hidden">Преимущества</h2>
+				<ul>
+					<li>
+						<h3>Быстро</h3>
+						<p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
+					</li>
+					<li>
+						<h3>Круто</h3>
+						<p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+					</li>
+					<li>	
+						<h3>Дорого</h3>
+						<p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+					</li>	
+				</ul>
+			</section>
+			<section class="news">
+				<h2>Новости</h2>
+				<ul>
+					<li>
+						<p>Нам наконец завезли ягермейстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
+						<time datetime="2016-01-11">11 января</time>
+					</li>
+					<li>
+						<p>В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
+						<time datetime="2016-01-18">18 января</time>
+					</li>
+				</ul>
+				<a href="#">Все новости</a>
+			</section>
+			<section class="fotogalery">
+				<h2>Фотогалерея</h2>
+				<figure>
+					<a href="#">
+						<img src="photo.jpg" width="" height="" alt="Интерьер">
+					</a>
+				</figure>
+				<span>Назад</span>
+				<<span>Вперед</span>
+			</section>
+			<section class="contacts">
+				<h2>Контактная информация</h2>
+				<p>Барбершоп "Бородинский"</p>
+				<p>Адрес: г.Санкт-Петербург, Б. Конюшенная, д. 19/8</p>
+				<p>Телефон: +7 (495) 666-02-66</p>
+				<p>Время работы:</p>
+				<p>Пн-Пт: с 10:00 до 22:00</p>
+				<p>Сб-Вс: с 10:00 до 19:00</p>
+				<a href="#">Как проехать</a>
+				<a href="#">Обратная связь</a>
+			</section>	
+			<section class="records">
+				<h2>Записаться</h2>
+				<p>Укажите желаемую дату и время и мы свяжемся с Вами для подтверждения брони</p>
+				<form action="https://echo.htmlacademy.ru" method="post">
+					<label>Дата
+						<input type="text" value="" placeholder="08.10.2017">
+					</label>
+					<label>Время
+						<input type="text" value="" placeholder="10:00">
+					</label>
+					<label>Ваше имя
+						<input type="text" value="" placeholder="Борода">
+					</label>
+					<label>Телефон
+						<input type="tel" value="" placeholder="+7 123 456-78-90">
+					</label>
+					<button type="submit">Отправить</button>
+				</form>
+			</section>
+		</main>
+		<footer>
+			<section class="adress">
+				<p>Барбершоп "Бородинский"</p>
+				<p>Адрес: г.Санкт-Петербург, Б. Конюшенная, д. 19/8</p>
+				<a href="#">Как нас найти?</a>
+				<p>Телефон: +7 (495) 666-02-66</p>
+			</section>
+			<section class="social">
+				<p>Давайте дужить!</p>
+				<ul>
+					<li>
+						<a href="#">
+							Вконтакте<img src="vk.svg">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Фейсбук<img src="fb.svg">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Инстаграм<img src="inst.svg">
+						</a>
+					</li>
+				</ul>
+			</section>
+			<section class="copyright">
+				<p>Разработано:</p>
+				<a href="https://htmlacademy.ru">Html Academy</a>
+			</section>
+		</footer>
+		<section class="popup_login">
+			<h2>Личный кабинет</h2>
+			<p> Введите пожалуйста свой логин и пароль</p>
+			<form action="https://echo.htmlacademy.ru" method="post">
+				<p>
+					<input type="text" value="" placeholder="Логин">
+				</p>
+				<p>
+					<input type="password" value="" placeholder="Пароль">
+				</p>
+				<p>
+					<input type="checkbox" checked>Запомните меня
+					<a href="#">Я забыл пароль!</a>
+				</p>
+				<button type="submit">Войти</button>
+			</form>
+			<span>x</span>
+		</section>
+		<section class="popup_map">
+			<h2 class="visually_hidden">Как до нас добраться</h2>
+			<img src="map.jpg">
+			<span>x</span>
+		</section>
+	</body>
 </html>
